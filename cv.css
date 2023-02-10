@@ -12,13 +12,7 @@
     height: 90%;
     top: 15%;
 }
-.img3{
-    position: absolute;
-    height: 20%;
-    width: 7%;
-    left: 30%;
-    top: 142%;
-}
+
 #var1{
     position: absolute;
     top: 100px;
@@ -33,21 +27,6 @@
     top: 120%;
     left: 10%;
 }
-#var4{
-    position: absolute;
-    top: 164%;
-    height: 25%;
-    width: 7%;
-    right: 0;
-}
-#var5{
-    position: absolute;
-    top: 164%;
-    height: 25%;
-    width: 10%;
-    left: 0;
-
-}
 #var6{
     position: absolute;
     top: 143%;
@@ -61,6 +40,7 @@ body{
     /*font-family: 'Marcellus SC', serif;*/
     font-family: 'Sacramento', cursive;
     font-size: 5.625em;
+    margin-block-end: 0;
     
 }
 #spl{
@@ -126,7 +106,7 @@ h2{
     margin-top: 2%;
   }
 .end{
-    height: 7%;
+    height: 7.5%;
     background-color: darkslateblue;
 
 }
@@ -174,4 +154,51 @@ a:hover{
 }
 .spa{
     width: 100%;
+}
+.btn {
+    background: #9c34d9;
+    background-image: -webkit-linear-gradient(top, #9c34d9, #d934ce);
+    background-image: -moz-linear-gradient(top, #9c34d9, #d934ce);
+    background-image: -ms-linear-gradient(top, #9c34d9, #d934ce);
+    background-image: -o-linear-gradient(top, #9c34d9, #d934ce);
+    background-image: linear-gradient(to bottom, #9c34d9, #d934ce);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 1px 1px 3px #ff38ff;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+.im{
+    height: 20%;
+    width: 10%;
+    left: 0;
+    float: left;
+    margin-right: 10%;
+}
+.ik{
+    height: 50%;
+    width: 15%;
+    left: 0;
+    float: left;
+    margin-right: 15%;
+}
+.in{
+    height: 25%;
+    width: 10%;
+    float: right;
+
 }
